@@ -1,0 +1,236 @@
+/* Color de fondo principal */
+.hero-section {
+    background-color: #4a5d4e; 
+    min-height: 80vh; 
+    display: flex;
+    align-items: center;
+}
+/* El enlace activo en el Navbar */
+.active-aloveart {
+    color: #b57353;
+    font-weight: bold;
+    border-bottom: 2px solid #b57353;
+}
+
+/* Estilo de los botones */
+.btn-custom {
+    background-color: #b57353; 
+    color: white;
+    border: none;
+    font-family: 'Syne', sans-serif;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #8e5a41; 
+    color: white;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; 
+    font-size: 3rem;  
+    color: #ffffff;   
+}
+.seccion-traslape {
+    
+    margin-top: -80px; 
+    
+    
+    position: relative;
+    z-index: 10;
+}
+
+.titulo-destacado {
+    background-color: #b57353;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;  
+        padding: 15px 15%; 
+    
+    display: inline-block;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+}
+.card-paso {
+    background-color: #f4f3ee; 
+    border: 1px solid #d1d1d1; 
+    border-radius: 15px;      
+    padding: 30px;
+    text-align: center;
+    font-family: 'Syne', sans-serif; 
+    transition: transform 0.3s ease; 
+}
+
+
+.card-paso:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.05);
+}
+
+.numero-paso {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+.icono-paso {
+    font-size: 2.5rem;   
+    color: #b57353;      
+    margin-bottom: 20px; 
+    display: block;      
+}
+/* Estilo general del contenedor del Footer */
+.footer-principal {
+    background-color: #4a5d4e; 
+    color: white;
+}
+
+/* Control del tamaño del logo */
+.logo-footer {
+    max-height: 80px;
+}
+
+/* Títulos de las columnas (Explora y Síguenos) */
+.titulo-footer {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+}
+
+/* Enlaces del menú del footer */
+.enlace-footer {
+    color: white;
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+    display: block;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.enlace-footer:hover {
+    color: #b57353; 
+}
+
+/* Iconos de redes sociales */
+.icono-redes {
+    color: white;
+    font-size: 1.5rem; 
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icono-redes:hover {
+    color: #b57353;
+    transform: scale(1.1); 
+}
+
+/* Línea divisoria y Copyright */
+.linea-separadora {
+    border-color: rgba(255, 255, 255, 0.2);
+    margin-top: 2rem;
+}
+
+.copyright {
+    font-family: 'Syne', sans-serif;
+    opacity: 0.8;
+}
+.hero-seccion {
+    background-color: #4a5d4e;
+    color: white;
+    min-height: 40vh;
+}
+
+.hero-seccion h1 {
+    font-family: 'Poppins', sans-serif;
+}
+.hero-seccion h4{
+    font-family: 'Syne', sans-serif;
+}
+.breadcrumb-item.active {
+    color: #b57353; /* Resalta Mascotas en terracota */
+    font-weight: bold;
+}
+/* Ajustes de la Guía Lateral */
+.guia-fotos {
+    background-color: #b57353;
+    color: white;
+    border-radius: 15px;
+    font-family: 'Syne', sans-serif;
+}
+
+/* Tarjetas de Producto */
+.card-producto {
+    font-family: 'Syne';
+    background-color: #f4f3ee;
+    border: 1px solid #d1d1d1;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.card-producto:hover {
+    transform: translateY(-5px);
+}
+
+.btn-terracota {
+    background-color: #b57353;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    border: none;
+}
+.conservar {
+    background-color: #b57353;
+    color: white;
+    border-radius: 15px;
+    font-family: 'Syne', sans-serif;
+}
+.hero-seccion-taller{
+    font-family: 'Poppins', sans-serif;
+    color: #4a5d4e;
+    min-height: 40vh;
+}
+.hero-seccion-contacto{
+    font-family: 'Poppins', sans-serif;
+    color: #4a5d4e;
+    min-height: 40vh;
+}
+
+.text-aloveart-verde {
+    color: #4a5d4e; 
+}
+
+.text-aloveart-terracota {
+    color: #b57353; 
+}
+
+
+.btn-terracota {
+    background-color: #b57353;
+    color: white;
+    border-radius: 8px; 
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-terracota:hover {
+    background-color: #9c6246; 
+    color: white;
+}
+
+
+.form-aloveart {
+    border: none;
+    border-bottom: 2px solid #ddd; 
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.1rem;
+    color: #6c757d; 
+}
+
+.form-aloveart:focus {
+    box-shadow: none;
+    border-color: #b57353; 
+}
